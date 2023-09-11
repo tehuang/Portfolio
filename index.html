@@ -1,0 +1,366 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Teresa Huang</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<!-- Header -->
+			<div id="header">
+				<div class="top">
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/about.jpg" alt="Profile photo" /></span>
+							<h1 id="title">Teresa Huang</h1>
+							<p>Computer Science Student</p>
+						</div>
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a class="scrolly" href="#top" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
+								<li><a class="scrolly" href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+								<li><a class="scrolly" href="#skills" id="skills-link"><span class="icon solid fa-laptop">Skills</span></a></li>
+								<li><a class="scrolly" href="#qualification" id="qualification-link"><span class="icon solid fa-check-square">Qualification</span></a></li>
+								<li><a class="scrolly" href="#portfolio" id="portfolio-link"><span class="icon solid fa-code">Portfolio</span></a></li>
+								<li><a class="scrolly" href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact Me</span></a></li>
+							</ul>
+						</nav>
+				</div>
+				<div class="bottom">
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/teresa1014/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/tehuang" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://www.instagram.com/teresa1014_3/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						</ul>
+				</div>
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+							<header>
+								<div class="row">
+									<div class="col-6 col-12-mobile typewriter">
+										<h1>Hi! I am Yu-Hsuan (Teresa), </h1>
+									</div>
+								</div>
+								<p>I am a CS graduate student at <a href="https://www.stevens.edu/">Stevens Institute of Technology</a><br />
+									I am also an Entry-Level Front-End Development/ Cybersecurity/ Technical Support Seeker </p>
+							</header>
+							<footer>
+								<a href="#contact" class="button scrolly">Contact Me</a>
+							</footer>
+						</div>
+					</section>
+					
+				<!-- About Me -->
+				<section id="about" class="three">
+					<div class="container">
+						<header>
+							<h2>About Me</h2>
+						</header>
+						<a href="#" class="image featured"><img src="images/about.jpg" alt="my photo" /></a>
+						<p style="text-align: left;">Before enrolloing Stevens as a graduate student, I spent over four years working as an IT support analyst at <a href="https://www.qualcomm.com/">Qualcomm,</a>
+							 the world's leading developer of 5G technology. About a year ago, I realized my desire to learn more and immerse myself in the field of information technology. 
+							 This led me to study abroad to gain further knowledge and experience.
+						Currently, I am new to web design and am learning web development through an online course on Udemy and YouTube. Besides, I am taking a database management course at school. 
+						</p>
+						
+						<a href="./assets/Resume_Huang, Yu-Hsuan_2023_9.pdf" class="button" target="_blank" rel="noopener noreferrer"><span style="margin-left: 10px;">Resume </span><span class="fa fa-paper-plane fa-xs"></span></a>
+					</div>
+				</section>
+
+				<!-- Skills -->
+				<section id="skills" class="two">
+					<div class="container">
+						<h2>Skills</h2>
+						<p style="text-align: left;">I program mostly in Java. I have knowledge of basic Linux and SQL commands. 
+							In addition to web development languages, I also have experience in technical support, including Active Directory, Windows OS troubleshooting, MS Office, ServiceNow, networking, incident response, and escalation management. 
+							I hold IT certificates, such as CCNA, AZ-900, and the ITIL® Foundation certificate in IT Service Management.
+						</p>
+						<div class="row">
+							<script>
+								const skills = [
+									{ name: "Java", imgSrc: "./images/skills/java.svg", altText: "Java LOGO" },
+									{ name: "Python", imgSrc: "./images/skills/Python.svg", altText: "Python LOGO" },
+									{ name: "C++", imgSrc: "./images/skills/C++.png", altText: "C++ LOGO" },
+									{ name: "HTML", imgSrc: "./images/skills/html.svg", altText: "HTML LOGO" },
+									{ name: "CSS", imgSrc: "./images/skills/css.svg", altText: "CSS LOGO" },
+									{ name: "JavaScirpt", imgSrc: "./images/skills/javascript.svg", altText: "JavaScript LOGO" },
+									{ name: "jQuery", imgSrc: "./images/skills/jquery.svg", altText: "jQuery LOGO" },
+									{ name: "Git", imgSrc: "./images/skills/git.svg", altText: "Git LOGO" },
+									{ name: "Node.js", imgSrc: "./images/skills/nodejs.svg", altText: "Node.js LOGO" },
+									{ name: "MongoDB", imgSrc: "./images/skills/mongodb.png", altText: "MongoDB LOGO" },
+									{ name: "React", imgSrc: "./images/skills/react.svg", altText: "React LOGO" },
+									{ name: "Linux", imgSrc: "./images/skills/linux.png", altText: "Linux LOGO" },
+									{ name: "CCNA", imgSrc: "./images/skills/CCNA.png", altText: "CCNA LOGO" },
+									{ name: "AZ900", imgSrc: "./images/skills/AZ900.png", altText: "AZ900 LOGO" },
+									{ name: "ITIL", imgSrc: "./images/skills/ITIL.png", altText: "ITIL LOGO" },
+								];
+								// Loop through the skills array and generate content for each skill
+								skills.forEach(skill => {
+									document.write(`
+										<div class="col-2 col-4-mobile">
+											<div class="grow ">
+												<img src="${skill.imgSrc}" alt="${skill.altText}" />
+												<p>${skill.name}</p>
+											</div>
+										</div>
+									`);
+								});
+								
+							</script>
+						</div>
+						
+					</div>
+				</section>
+
+				<!-- Qualification -->
+				<section id="qualification" class="three">
+					<div class="container">
+						<header>
+							<h2>Qualification</h2>
+						</header>
+					
+						<div class="row">
+							<div class="col-6 col-12-mobile">
+								
+								<h3 class="fa fa-graduation-cap" aria-hidden="true" style="font-weight: bold;"> Education</h3>
+									<div class="list-group">
+										<a class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+										  <img src="./images/Stevens_logo.svg" alt="Stevens Logo" width="32" height="32" class="rounded-circle flex-shrink-0">
+										  <div class="d-flex gap-2 w-100 justify-content-between">
+											<div>
+											  <h6 class="mb-0">Masters in Computer Science</h6>
+											  <p class="mb-0 opacity-75">Stevens Institute of Technology</p>
+											  <span style="font-size: large; word-spacing: normal;">I have taken Java, Python, discrete math, data structures, algorithms, operating systems, and cybersecurity principles courses so far. 
+												And this semester, I'll be learning database management </span>
+											</div>
+											<small class="opacity-50 text-nowrap" ">2022-2023</small>
+											
+										  </div>
+										
+										</a>
+										<a  class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+										  <img src="https://www.cityu.edu.hk/sites/g/files/asqsls3821/themes/site/cityu/images/logo-coloured-2019.svg" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+										  <div class="d-flex gap-2 w-100 justify-content-between">
+											<div>
+											  <h6 class="mb-0">Bachelor of Engineering in Bioengineering</h6>
+											  <p class="mb-0 opacity-75">City University of Hong Kong</p>
+											  <span style="font-size: large; line-height: .4em;">I had a minor in Computing Science during my university studies. 
+												Additionally, I participated in an academic exchange program at the University of Ontario Institute of Technology in Canada 
+												and took part in the Cultural and Language Immersion Scheme at the University of Sunderland in England.</span>
+											</div>
+											<small class=" opacity-50 text-nowrap"> 2012-2017</small>
+										  </div>
+										</a>
+										
+									  </div>
+							</div>
+
+					
+							<div class="col-6 col-12-mobile">
+								<h3 class="fa fa-briefcase" aria-hidden="true" style="font-weight: bold;">  Experience</h3>
+								<div class="list-group">
+									<a class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+									  <img src="./images/Stevens_logo.svg" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+									  <div class="d-flex gap-2 w-100 justify-content-between">
+										<div>
+										  <h6 class="mb-0">Course Assistant</h6>
+										  <p class="mb-0 opacity-75">Stevens Institute of Technology</p>
+										  <span style="font-size: large; word-spacing: normal;">Provided guidance to 40 students on data structures and algorithms implementation in Java. 
+											Coordinated with other course assistants to ensure consistent grading across all sections</span>
+										</div>
+										<small class="opacity-50 text-nowrap" ">2023</small>
+										
+									  </div>
+									
+									</a>
+									<a class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+									  <img src="./images/Qualcomm_logo.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+									  <div class="d-flex gap-2 w-100 justify-content-between">
+										<div>
+										  <h6 class="mb-0">IT Support Analyst</h6>
+										  <p class="mb-0 opacity-75">Qualcomm</p>
+										  <span style="font-size: large; line-height: .4em;">Provided technical assistance to 41,000 employees across the world, resulting in solving on average of 25 product, application, and device problems per day.
+											Analyzed various complex problems with computer configurations, networking, and software installations, and proposed steps leading to their successful resolution.</span> 
+										</div>
+										<small class="opacity-50 text-nowrap"">2017-2021</small>
+									  </div>
+									</a>
+
+									<a class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+										<img src="./images/ASU_logo.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+										<div class="d-flex gap-2 w-100 justify-content-between">
+										  <div>
+											<h6 class="mb-0">Intern</h6>
+											<p class="mb-0 opacity-75">Arizona State University</p>
+											<span style="font-size: large; line-height: .4em;">Designed and conducted research process on flip-chip and bumping processes. Assisted with PCR layer design to ensure efficient and effective manufacturing process</span>
+										  </div>
+										  <small class=" opacity-50 text-nowrap" ">2015</small>
+										</div>
+									  </a>
+								  </div>
+							</div>
+						</div>
+						
+					</div>
+				</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+							
+							<h2>Portfolio</h2>
+							<p>Personal and school projects</p>
+							
+							<div class="row">
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#portfolio" class="image fit" onclick="showPrivateImage(); return false;">
+											<img src="images/Simulation.jpg" alt="CPU Simulation Project" />
+										  </a>
+										  
+										<header>
+											<h3>The Simulation Programming Project</h3>
+										</header>
+										<div class="modal fade" id="privateImageModal" tabindex="-1" aria-labelledby="privateImageModalLabel" aria-hidden="true">
+											<div class="modal-dialog">
+											  <div class="modal-content">
+												<div class="modal-header">
+												  <h5 class="modal-title" id="privateImageModalLabel">Private Project</h5>						
+												</div>
+												<div class="modal-body">
+													Sorry this project is a school project. It's currently unavailable!
+												</div>
+												<div class="modal-footer">
+												  <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="hidePrivateImage();">Close</button>
+												</div>
+											  </div>
+											</div>
+										  </div>
+										<script>
+											function showPrivateImage() {
+											  $('#privateImageModal').modal('show');
+											}
+											function hidePrivateImage(){
+												$('#privateImageModal').modal('hide');
+											}
+										</script>
+									</article>
+									
+									<article class="item">
+										<a href="https://github.com/tehuang/Web-Development-Projects/tree/main/37.0%20Authentication%20and%20Security/Authentication-Secrets" class="image fit" target="_blank" rel="noopener noreferrer"><img src="images/secrets.jpg" alt="Authentication-Secrets"/></a>
+										<header>
+											<h3>Authentication-Secrets</h3>
+										</header>
+									</article>
+
+									<article class="item">
+										<a href="#portfolio" class="image fit" onclick="showPrivateImage(); return false;">
+											<img src="images/Music_recommender.jpg" alt="Music_recommender" />
+										  </a>
+										<header>
+											<h3>Music Recommender</h3>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="https://github.com/tehuang/Web-Development-Projects/tree/main/Backend/WeatherMap" class="image fit" target="_blank" rel="noopener noreferrer"><img src="images/WeatherForecastResult.jpg" alt="Weather Forecast" /></a>
+										<header>
+											<h3>Weather Forecast</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#portfolio" class="image fit" onclick="showPrivateImage(); return false;">
+											<img src="images/MovieNodeBST.jpg" alt="Movie Node Binary Search Tree" />
+										  </a>
+										<header>
+											<h3>Movie Node Binary Search Tree </h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="https://github.com/tehuang/Web-Development-Projects/tree/main/Blog%20with%20database" class="image fit" target="_blank" rel="noopener noreferrer"><img src="images/blog_home.jpg" alt="Blog with database" /></a>
+										<header>
+											<h3>Blog with database</h3>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="https://github.com/tehuang/Web-Development-Projects/tree/main/Memo%20Project" class="image fit" target="_blank" rel="noopener noreferrer"><img src="images/Memo Home Page.jpeg" alt="" /></a>
+										<header>
+											<h3>Memo Project</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="https://github.com/tehuang/Web-Development-Projects/tree/main/To%20Do%20List-v2" class="image fit" target="_blank" rel="noopener noreferrer"><img src="./images/TodoList_today.jpg" alt="To Do List Project" /></a>
+										<header>
+											<h3>To Do List Project</h3>
+										</header>
+									</article>
+								</div>
+								
+							</div>
+							
+						</div>
+						
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+							<header>
+								<h2>Contact Me</h2>
+							</header>
+							<p>Feel free to reach out to me using the contact form below. </br>
+								I'd love to hear from you and discuss potential collaborations, projects, or opportunities. 
+								Whether you have questions, feedback, or just want to say hello, I'm here to connect with you!</p>
+
+							<form method="post" action="send-email.php">
+								<div class="row">
+									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" required/></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" required/></div>
+									<div class="col-12">
+										<textarea name="message" placeholder="Message" required></textarea>
+									</div>
+									<div class="col-12">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form>
+							
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; 2023 Huang Yu-Hsuan, All Rights Reserved.</li>
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+			</div>
+
+		<!-- Scripts -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+	</body>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
